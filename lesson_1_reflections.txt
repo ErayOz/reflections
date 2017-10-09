@@ -1,0 +1,30 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+This time-saving method identifies the lines with changes; therefore, it smoothens process of the cumbersome research for the bug.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+This privilage is not only helping a programmer to implement new ideas to their programs, but also it saves significant amount of time when the mistakes may be made.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros: You can save after a logical change in other words you can decide on the time and size of the change. The saved version may not be ended in the middle of coding. 
+
+Cons: You may forget the timing of save or you may encounter with technical problems i.e. electrical breakdown; so you will lose your work.
+You need to get this habit.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+I believe that they all address their purposes. Users of Git highly require to save multiple files at once.
+While most of the Google Docs, user do not. 
+
+How can you use the commands git log and git diff to view the history of files?
+Git log command shows the ID, author, date and messages; while, the git diff command shows the differences between two IDs.
+Git log is for looking at the big picture; while git diff is for understanding the changes in more detail.
+
+How might using version control make you more confident to make changes that could break something?
+You always have a chance to go back to your previous versions or the lastest one. 
+Therefore, there is no need to be afraid to make new changes. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+Why do not we start to make a new project ? 
+Or I can check the versions of the applications on my computer.
+
+
