@@ -1,6 +1,24 @@
 What happens when you initialize a repository? Why do you need to do it?
-Git automaticly forms an hidden file of .git. So that, you can enter the configurations and other settings.
+	Git automaticly forms an hidden file of .git. So that, you can enter the configurations and other settings.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
+	The staging area stands in between of the two directories given. Because of this reason, it offers a flexibility and opportunity to user to personalize the way of his/her use of Git.
 
-The staging area stands in between of the two directories given. Because of this reason, it offers a flexibility and opportunity to user to personalize the way of his/her use of Git.
+How can you use the staging area to make sure you have one commit per logical change?
+	Whenever you complete your logical change on a file, just after you save it you can also add it to your stating area.
+	Moreover, you can use git status / git diff to see which files were changed.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	You can not only name the branches to organize and easily access to a version in a certain point of time, but they can also assist the coder to continue to work on different branches at different timelines, which is hard to follow with commits.
+
+How do the diagrams help you visualize the branch structure?
+	The diagrams help to visualize which commits are reachable or not. Additionally, they help to visualize which features or changes a new branch has. 
+	
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	The new added codes from two folders are being added to merged folder while the deleted lines are not included.
+	Representation help us to see which features are included. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	Git's automatic merge shorthens the time for making changes that do not have any conflicts; however, it also removes a line if one of the users deletes it. We have to be cautious about it. 
+
+	Manually is more safe approach, however it is not feasible to perform due to time consumption of this approach.
